@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "supervisor -e 'node, js, ejs, css'  index.js"
+    "start": "supervisor -e 'node, js, ejs, css' index.js"
   },
   "author": "",
   "license": "ISC",

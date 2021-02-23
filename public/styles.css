@@ -110,6 +110,37 @@ h2 {
   fill: #fff;
 }
 
+.top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #010101;
+  padding-bottom: 4em;
+}
+
+.heading {
+  margin-top: 2em;
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+  color: #aeb4b4;
+}
+
+.links {
+  margin-top: 5em;
+}
+
+a:hover {
+  color: #d72323;
+}
+
+.list {
+  margin-top: 20em;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 2.8em;

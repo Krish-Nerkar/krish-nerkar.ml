@@ -96,13 +96,91 @@ h2 {
 }
 
 .social {
+  margin-top: 5em;
   background-color: transparent;
   border: none;
   fill: #ffffff77;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .social:hover {
   border: none;
   fill: #fff;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 2.6em;
+  }
+  h2 {
+    font-size: 0.7em;
+  }
+  .button {
+    font-size: 0.5em;
+    margin-bottom: 0;
+  }
+  svg {
+    height: 1.5em;
+    width: 1.5em;
+  }
+  .social {
+    margin-top: 3em;
+  }
+}
+
+@media (min-width: 576px) {
+  h1 {
+    font-size: 3em;
+  }
+  h2 {
+    font-size: 1em;
+  }
+  .button {
+    font-size: 0.7em;
+  }
+  svg {
+    height: 1.7em;
+    width: 1.7em;
+  }
+  .social {
+    margin-top: 3em;
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 4em;
+  }
+  h2 {
+    font-size: 1.3em;
+  }
+  .button {
+    font-size: 0.9em;
+  }
+  svg {
+    height: 2em;
+    width: 2em;
+  }
+  .social {
+    margin-top: 4em;
+  }
+}
+
+@media (min-width: 992px) {
+  h1 {
+    font-size: 5.2em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  .button {
+    font-size: 1.1em;
+  }
+  svg {
+    height: 2.5em;
+    width: 2.5em;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

@@ -117,7 +117,7 @@ h2 {
   width: 100%;
   z-index: 1000;
   background-color: #010101;
-  padding-bottom: 4em;
+  padding-bottom: 3em;
 }
 
 .heading {
@@ -139,7 +139,16 @@ a:hover {
 }
 
 .list {
-  margin-top: 20em;
+  margin-top: 18.3em;
+}
+
+.title {
+  font-size: 1em;
+  color: #d72323;
+}
+
+.desc {
+  font-size: 0.9em;
 }
 
 @media (max-width: 576px) {

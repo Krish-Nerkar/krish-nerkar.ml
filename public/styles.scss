@@ -124,7 +124,7 @@ h2{
     width: 100%;
     z-index: 1000;
     background-color: $bgcolor;
-    padding-bottom: 4em;
+    padding-bottom: 3em;
 }
 
 .heading{
@@ -146,7 +146,16 @@ a, a:hover, a:focus, a:active {
  }
 
  .list{
-    margin-top: 20em
+    margin-top: 18.3em
+ }
+
+ .title{
+     font-size: 1em;
+     color: $accentlight;
+ }
+
+ .desc{
+     font-size: 0.9em;
  }
 
 @media (max-width: 576px) { 

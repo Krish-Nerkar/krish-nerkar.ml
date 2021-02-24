@@ -123,7 +123,7 @@ h2 {
   margin-top: 2em;
 }
 
-a, a:hover, a:focus, a:active {
+a {
   text-decoration: none;
   color: inherit;
   color: #aeb4b4;
@@ -148,6 +148,15 @@ a:hover {
 
 .desc {
   font-size: 0.9em;
+}
+
+.title-link {
+  font-size: 1em;
+  color: #d72323;
+}
+
+.title-link:hover {
+  color: #ec6767;
 }
 
 @media (max-width: 576px) {

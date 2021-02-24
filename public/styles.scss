@@ -145,7 +145,8 @@ a {
  }
 
  .list{
-    margin-top: 5em
+    margin-top: 5em;
+    margin-bottom: 10em;
  }
 
  .title{
@@ -165,6 +166,10 @@ a {
  .title-link:hover{
      color: #ec6767;
  }
+
+.img{
+    width: 300px;
+}
 
 @media (max-width: 576px) { 
     h1{
@@ -240,6 +245,11 @@ a {
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { 
+
+    a{
+        font-size: 1.3em;
+    }
+
     h1{
         font-size: 5.2em;
     }
@@ -257,5 +267,37 @@ a {
         width: 2.5em;
     }
 
-    .heading{}
+    .heading{
+        font-size: 4.5em;
+        margin-top: 1.3em;
+    }
+
+    .title{
+        font-size: 2em;
+    }
+
+    .desc{
+        font-size: 1.3em;
+        max-width: 80%;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .row {
+        display: flex;
+    }
+
+    .column {
+        flex: 50%;
+    }
+
+    .img{
+        width: 450px;
+    }
+
+    .vid{
+        height: 250px;
+    }
  }

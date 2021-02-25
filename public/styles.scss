@@ -1,6 +1,5 @@
 $bgcolor : #010101;
-$accentlight : #d72323;
-$accentdark : #d72323; 
+$accent : #ff4719;
 
 
 body{
@@ -13,7 +12,7 @@ body{
 }
 
 .highlight{
-    color: $accentlight;
+    color: $accent;
 }
 
 h1{
@@ -58,8 +57,8 @@ h2{
     padding-right: 1.1em;
     border-radius: 0.9vw;
     margin-top: 3em;
-    border-color: $accentdark;
-    border: solid $accentdark;
+    border-color: $accent;
+    border: solid $accent;
     
     &::before {
       content: '';
@@ -79,7 +78,7 @@ h2{
     &:hover {
       &.button-start {
         color: #ffffff;
-        background-color: $accentlight;
+        background-color: $accent;
       }
       
       
@@ -141,7 +140,7 @@ a {
  }
 
  a:hover{
-    color: $accentlight;
+    color: $accent;
  }
 
  .list{
@@ -151,7 +150,7 @@ a {
 
  .title{
      font-size: 1em;
-     color: $accentlight;
+     color: $accent;
  }
 
  .desc{
@@ -160,7 +159,7 @@ a {
 
  .title-link{
     font-size: 1em;
-    color: $accentlight;
+    color: $accent;
  }
 
  .title-link:hover{
@@ -175,9 +174,27 @@ a {
     font-size: 1.5em;
     max-width: 80%;
     margin-top: 3em;
-    color: #ffafaf;
+    color: $accent;
+    margin-bottom: 10em;
 }
 
+.about-links{
+    font-size: 1em;
+    color: #aeb4b4;
+}
+
+.about-links:hover{
+    color: #fff;
+}
+
+.un-links{
+    font-size: 1em;
+    color: $accent;
+}
+
+.un-links:hover{
+    color: #fff;
+}
 
 @media (max-width: 576px) { 
     h1{
@@ -200,6 +217,11 @@ a {
 
     .social{
         margin-top: 3em;
+    }
+
+    .about{
+        font-size: 1em;
+        max-width: 100%;
     }
 }
 
@@ -244,6 +266,11 @@ a {
         width: 60vw;
         height: 35vw;
         margin-top: 1em;
+    }
+
+    .about{
+        font-size: 1.3em;
+        max-width: 90%;
     }
  }
 
@@ -310,6 +337,10 @@ a {
         width: 40vw;
         height: 25vw;
         margin-top: 1em;
+    }
+
+    .about{
+        max-width: 90%;
     }
  }
 

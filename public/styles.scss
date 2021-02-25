@@ -168,7 +168,7 @@ a {
  }
 
 .img{
-    width: 300px;
+    width: 70vw;
 }
 
 @media (max-width: 576px) { 
@@ -217,6 +217,26 @@ a {
     .social{
         margin-top: 3em;
     }
+    .heading{
+        font-size: 4.5em;
+        margin-top: 1.3em;
+    }
+
+    .title{
+        font-size: 2em;
+    }
+
+    .desc{
+        font-size: 1.1em;
+        line-height: 1.5em;
+        max-width: 80%;
+    }
+
+    .img{
+        width: 60vw;
+        height: 35vw;
+        margin-top: 1em;
+    }
  }
 
 // Medium devices (tablets, 768px and up)
@@ -240,6 +260,39 @@ a {
 
     .social{
         margin-top: 4em;
+    }
+
+    .heading{
+        font-size: 4.5em;
+        margin-top: 1.3em;
+    }
+
+    .title{
+        font-size: 2em;
+    }
+
+    .desc{
+        font-size: 1.1em;
+        line-height: 1.5;
+        max-width: 80%;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .row {
+        display: flex;
+    }
+
+    .column {
+        flex: 50%;
+    }
+
+    .img{
+        width: 40vw;
+        height: 25vw;
+        margin-top: 1em;
     }
  }
 
@@ -294,10 +347,9 @@ a {
     }
 
     .img{
-        width: 450px;
+        width: 40vw;
+        height: 25vw;
+        margin-top: 1em;
     }
 
-    .vid{
-        height: 250px;
-    }
  }

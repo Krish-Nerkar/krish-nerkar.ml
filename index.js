@@ -1,9 +1,6 @@
 const express = require("express")
 const app = express()
 const bodyParser = require("body-parser")
-var mixpanel = require('mixpanel-browser');
-
-mixpanel.init("d5d588f7d38b9c1a1b4e6133ca1af840");
 
 app.set("view engine", "ejs")
 app.use(express.static("public"))

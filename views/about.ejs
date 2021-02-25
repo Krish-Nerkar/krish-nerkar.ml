@@ -80,5 +80,11 @@ mixpanel.init("d5d588f7d38b9c1a1b4e6133ca1af840", {batch_requests: true})</scrip
         </h2>
         
     </div>
+
+    <script>
+        var USER_ID = Math.floor(Math.random() * 1000000000);
+        console.log(USER_ID)
+        mixpanel.identify(USER_ID);
+    </script>
 </body>
 </html>

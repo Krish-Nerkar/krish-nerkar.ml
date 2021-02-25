@@ -171,6 +171,14 @@ a {
     width: 70vw;
 }
 
+.about{
+    font-size: 1.5em;
+    max-width: 80%;
+    margin-top: 3em;
+    color: #ffafaf;
+}
+
+
 @media (max-width: 576px) { 
     h1{
         font-size: 2.8em;
@@ -283,6 +291,15 @@ a {
 
     .row {
         display: flex;
+        position: relative;      
+    }
+
+    .center{
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
     }
 
     .column {
@@ -340,6 +357,15 @@ a {
 
     .row {
         display: flex;
+        position: relative;      
+    }
+
+    .center{
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
     }
 
     .column {
